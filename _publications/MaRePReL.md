@@ -1,7 +1,7 @@
 ---
 title: "Combining Planning and Reinforcement Learning for Solving Relational Multiagent Domains"
 collection: publications
-category: Conference
+category: conferences
 permalink: /publication/MaRePReL
 excerpt: 'This paper is about solving relational multiagent domains by employing a two level system using a planner as a centralized controller at a high level, and deep reinforcement learning agents at the lower level.'
 venue: 'AAMAS 2025'
