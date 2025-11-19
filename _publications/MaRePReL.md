@@ -1,9 +1,9 @@
 ---
-title: "Combining Planning and Reinforcement Learning for Solving Relational Multiagent Domains"
+title: 'Combining Planning and Reinforcement Learning for Solving Relational Multiagent Domains'
 collection: publications
 category: conferences
 permalink: /publication/MaRePReL
-excerpt: 'This paper is about solving relational multiagent domains by employing a two level system using a planner as a centralized controller at a high level, and deep reinforcement learning agents at the lower level.'
+excerpt: 'This paper is about solving relational multiagent domains using MaRePReL.'
 venue: 'AAMAS 2025'
 paperurl: 'https://ranveersingh.net/files/MaRePReL.pdf'
 bibtexurl: 'https://ranveersingh.net/files/MaRePReL.bib'
