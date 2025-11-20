@@ -5,7 +5,7 @@ category: "conferences"
 permalink: "/publication/MaRePReL"
 excerpt: "This paper is about solving relational multiagent domains using MaRePReL."
 venue: "AAMAS"
-year: 2025
+date: 2025-06
 paperurl: "https://ranveersingh.net/files/MaRePReL.pdf"
 bibtexurl: "https://ranveersingh.net/files/MaRePReL.bib"
 citation: "Nikhilesh Prabhakar, Ranveer Singh, Harsha Kokel, Sriraam Natarajan, and Prasad Tadepalli. 2025. Combining Planning and Reinforcement Learning for Solving Relational Multiagent Domains. In Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems (AAMAS '25). International Foundation for Autonomous Agents and Multiagent Systems, Richland, SC, 1708–1717."
