@@ -1,7 +1,7 @@
 ---
 title: "Exploiting Relational Planning and Task-Specific Abstractions for Multiagent Reinforcement Learning in Relational Domains"
 collection: publications
-category: workshop
+category: workshops
 permalink: /publication/REPREL_MA
 excerpt: 'This is the workshop version of the MaRePReL framework published later.'
 date: 2024-02-26
