@@ -4,7 +4,8 @@ collection: "publications"
 category: "conferences"
 permalink: "/publication/MaRePReL"
 excerpt: "This paper is about solving relational multiagent domains using MaRePReL."
-venue: "AAMAS 2025"
+venue: "AAMAS"
+year: 2025
 paperurl: "https://ranveersingh.net/files/MaRePReL.pdf"
 bibtexurl: "https://ranveersingh.net/files/MaRePReL.bib"
 citation: "Nikhilesh Prabhakar, Ranveer Singh, Harsha Kokel, Sriraam Natarajan, and Prasad Tadepalli. 2025. Combining Planning and Reinforcement Learning for Solving Relational Multiagent Domains. In Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems (AAMAS '25). International Foundation for Autonomous Agents and Multiagent Systems, Richland, SC, 1708–1717."
@@ -19,7 +20,7 @@ MaRePReL (Multiagent Relational Planning and Reinforcement Learning) is a novel 
   2. **Handling Non-Stationarity Through Task Distribution**:
      The planner in MaRePReL acts as a centralized controller, ensuring that agents receive well-defined, non-overlapping tasks. By structuring interactions, MaRePReL reduces the chaotic nature of multiagent interactions and mitigates non-stationarity, leading to more stable learning.
   3. **Improving Sample Efficiency with Abstraction Reasoning**:
-     Inspired by the work in [RePReL], MaRePReL also incorporates domain knowledge represented in the form of Dynamic First-Order Conditional Influence (D-FOCI) statements to extract only the most relevant state features needed for each agent’s sub-task. This helps reduce the number of samples required for training, enabling efficient learning in complex environments.
+     Inspired by the work in [RePReL](https://starling.utdallas.edu/assets/pdfs/Kokel_ICAPS2021.pdf), MaRePReL also incorporates domain knowledge represented in the form of Dynamic First-Order Conditional Influence (D-FOCI) statements to extract only the most relevant state features needed for each agent’s sub-task. This helps reduce the number of samples required for training, enabling efficient learning in complex environments.
   4. **Enhancing Generalization Across Tasks Through Task Specific Lower-Level Policies**:
       Once abstracted, multiple lower level reinforcement learning policies to learn how to act in different tasks in the abstract state space for different agents.
 
