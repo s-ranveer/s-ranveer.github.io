@@ -9,7 +9,7 @@ paperurl: "https://ranveersingh.net/files/MaRePReL.pdf"
 bibtexurl: "https://ranveersingh.net/files/MaRePReL.bib"
 citation: "Nikhilesh Prabhakar, Ranveer Singh, Harsha Kokel, Sriraam Natarajan, and Prasad Tadepalli. 2025. Combining Planning and Reinforcement Learning for Solving Relational Multiagent Domains. In Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems (AAMAS '25). International Foundation for Autonomous Agents and Multiagent Systems, Richland, SC, 1708–1717."
 ---
-### TLDR
+
 Multiagent Reinforcement Learning (MARL) introduces several challenges to sequential-decision making problems, including the curse of dimensionality dealing with an exponential state and action space, non-stationarity of the environment and credit assignment. When we include the added complexity of relational domains meant to learn policies that are generalizable to an increasing number of objects and tasks, traditioal MARL approaches are incapable of learning and scaling efficiently. Our work on Combining Planning and Reinforcement Learning for Solving Relational Multiagent Domains introduces a novel framework MaRePReL (Multiagent Relational Planning and Reinforcement Learning) that is designed to address these challenges by integrating hierarchical relational planning with reinforcement learning. This work extends to original RePReL framework to handle domains with multiple agents. Here’s how MaRePReL tackles problems in goal-directed relational domains.
 
 ### MaRePReL
