@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Computer Science, The University of Texas at Dallas, 2026 (expected)
+* Ph.D in Computer Science, The University of Texas at Dallas, (Ongoing)
 * M.S. in Computer Science, The University of Texas at Dallas, 2025
 * B.S. in Computer Science, The University of Texas at Dallas, 2021
 
@@ -19,7 +19,7 @@ Work experience
 ======
 * Fall 2023 - Present: Research Assistant
   * The University of Texas at Dallas
-  * Supervisor: Dr Sriraam Natarajan
+  * Supervisor: Dr. Sriraam Natarajan
 
 * Fall 2021 - Spring 2023: Teaching Assistant
   * The University of Texas at Dallas
@@ -34,12 +34,31 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages
+  * Python
+  * Java
+  * C/C++
+* ML/AI Frameworks & Libraries
+  * PyTorch
+  * Scikit-learn
+  * Hugging Face Transformers
+  * vLLM
+* Reinforcement Learning Tools
+  * Ray RLlib
+  * OpenAI Gymnasium
+* AI Research Specializations
+  * Causal Inference & Bayesian Networks
+  * Multi-Agent Reinforcement Learning
+  * Relational Planning & Symbolic AI
+  * LLM Integration & Evaluation
+  * Clinical AI & Healthcare ML
+* Data Engineering
+  * Pandas / NumPy
+  * SQL
+* Research & Academic Tools
+  * LaTeX / Overleaf
+  * Jupyter Notebooks
+  * Git / GitHub
 
 Publications
 ======
