@@ -9,7 +9,7 @@ redirect_from:
 
 About Me
 =======
-I am Ranveer, a PhD student working with [Dr Sriraam Natarajan](http://utdallas.edu/~sriraam.natarajan/) in the [Statistical Artificial Intelligence and Relational Learning Group (StARLinG Lab)](http://starling.utdallas.edu/) at the University of Texas at Dallas. I have called UT Dallas home since coming here for my undergraduate in Computer Science in Fall 2017, and I continued directly into the  PhD program right after finishing my undegraduate degree. As an undegraduate, I interned at a financial company in India, where I worked on statistical modelling tools for mutual fund investment.
+I am Ranveer, a PhD student working with [Dr Sriraam Natarajan](http://utdallas.edu/~sriraam.natarajan/) in the [Statistical Artificial Intelligence and Relational Learning Group (StARLinG Lab)](https://starling-lab.github.io/) at the University of Texas at Dallas. I have called UT Dallas home since coming here for my undergraduate degree in Computer Science in Fall 2017, and I continued directly into the  PhD program right after finishing my undergraduate degree. As an undergraduate, I interned at a financial company in India, where I worked on statistical modelling tools for mutual fund investment.
 
 
 Research
