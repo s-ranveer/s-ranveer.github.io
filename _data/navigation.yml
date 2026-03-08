@@ -14,11 +14,11 @@ main:
   # - title: "Talks"
   #   url: /talks/    
 
-  # - title: "Teaching"
-  #   url: /teaching/    
-    
   - title: "Work Experience"
-    url: /portfolio/
+    url: /teaching/    
+    
+  # - title: "Work Experience"
+  #   url: /portfolio/
         
   # - title: "Blog Posts"
   #   url: /year-archive/
