@@ -54,7 +54,7 @@ var toggleTheme = () => {
 // Read the Plotly data from the code block, hide it, and render the chart as new node. This allows for the 
 // JSON data to be retrieve when the theme is switched. The listener should only be added if the data is 
 // actually present on the page.
-import { plotlyDarkLayout, plotlyLightLayout } from './theme.js';
+import { plotlyDarkLayout, plotlyLightLayout } from '/assets/js/theme.js';
 let plotlyElements = document.querySelectorAll("pre>code.language-plotly");
 if (plotlyElements.length > 0) {
   document.addEventListener("readystatechange", () => {
