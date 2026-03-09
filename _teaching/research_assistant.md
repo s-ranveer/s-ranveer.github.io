@@ -2,14 +2,15 @@
 title: "Research Assistant"
 permalink: /teaching/research_assistant
 venue: "The University of Texas at Dallas, Computer Science Department."
+type: PhD
 date: 2023-08-20
 location: "Richardson, TX."
 ---
-Working as an RA as part of my PhD. I have been funded through NIH, mainly focusing on clinical AI with a focus on data-scarce domains.
+Working as an RA as part of my PhD. I have been funded by the NIH, primarily focusing on clinical AI in data-scarce domains.
 
 ### Extracorporeal Membrane Oxygenation (ECMO)
 
-This is the primary domain I have been looking at. I have been working with clinicians from UTSW to model the risk of neurological injury for patients on ECMO using high-frequency physiological and lab temporal data. The domain is data scarce and high-dimensional, making typical machine learning and deep learning methods not work in the domain. We have been looking at LLMs as approximate knowledge sources to generate an initial hypothesis to solve the problem.
+This is the primary domain I have been looking at. I have been working with clinicians at UTSW to model the risk of neurological injury in patients on ECMO using high-frequency physiological and laboratory temporal data. The domain is data scarce and high-dimensional, making typical machine learning and deep learning methods not work in the domain. We have been looking at LLMs as approximate knowledge sources to generate an initial hypothesis to solve the problem.
 
 ### Adverse Pregnancy Outcomes (APO)
 
