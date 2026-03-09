@@ -2,7 +2,7 @@
 title: "Student Intern"
 type: "Undergraduate"
 permalink: /teaching/student_intern
-venue: "The University of Texas at Dallas, Computer Science Department."
+venue: "Fintricks Consultancy Services"
 date: 2019-06-20
 location: "New Delhi, India."
 ---
