@@ -26,7 +26,7 @@ Work experience
   * Subject: Digital Logic
   
 * Summer 2018 - Summer 2021: CS Intern
-  * Plutus Actuarialance, New Delhi, India
+  * Fintricks Consultancy Services, New Delhi, India
   * Duties: Statistical Modelling for Mutual Fund Policies
 
 * Fall 2018 - Spring 2020: Student Worker
