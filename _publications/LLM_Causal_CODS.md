@@ -1,7 +1,7 @@
 ---
 title: "LLMs for Causal Reasoning in Medicine? A Call for Caution"
-collection: publications
-category: conferences
+collection: 'publications'
+category: 'conferences'
 permalink: /publication/LLM_Causal_CODS
 excerpt: 'Evaluating LLMs for Causal Reasoning in Medicine'
 date: 2025-12-17
