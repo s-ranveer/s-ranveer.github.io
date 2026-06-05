@@ -8,5 +8,3 @@ redirect_from:
 ---
 
 <iframe src="/files/CV_current.pdf" width="100%" height="900px" style="border: none;"></iframe>
-
-<p><a href="/files/CV_current.pdf">Download CV (PDF)</a></p>
