@@ -3,6 +3,7 @@
 
 require 'erb'
 require 'fileutils'
+require 'date'
 require 'yaml'
 
 ROOT = File.expand_path(__dir__)
@@ -10,7 +11,8 @@ SOURCE = File.join(ROOT, 'src')
 OUTPUT = File.join(ROOT, 'public')
 ASSETS = File.join(ROOT, 'assets')
 
-data = YAML.load_file(File.join(SOURCE, 'data.yml'))
+data_path = File.join(SOURCE, 'data.yml')
+data = YAML.safe_load(File.read(data_path), permitted_classes: [Date])
 template = ERB.new(File.read(File.join(SOURCE, 'template.html.erb')))
 blog_template = ERB.new(File.read(File.join(SOURCE, 'blog.html.erb')))
 
