@@ -10,7 +10,7 @@
 <body>
   <div class="page-shell">
     <header class="topbar">
-      <a class="wordmark" href="#top" aria-label="Back to top"><span>RS</span> / <%= site['site']['name'] %></a>
+      <a class="wordmark" href="#top" aria-label="Back to top"><%= site['site']['name'] %></a>
       <nav aria-label="Primary navigation">
         <a href="#about">About</a>
         <a href="#research">Research</a>
@@ -68,7 +68,7 @@
       </section>
     </main>
 
-    <footer><div><a class="wordmark" href="#top"><span>RS</span> / <%= site['site']['name'] %></a><p>Researching better ways to reason about the world.</p></div><div class="footer-links"><a href="<%= site['site']['github'] %>">GitHub ↗</a><a href="<%= site['site']['linkedin'] %>">LinkedIn ↗</a><a href="<%= site['site']['orcid'] %>">ORCID ↗</a><a href="<%= site['site']['scholar'] %>">Google Scholar ↗</a></div><small>© <%= Time.now.year %> <%= site['site']['name'] %> · Updated <%= site['site']['updated'] %></small></footer>
+    <footer><div><a class="wordmark" href="#top"><%= site['site']['name'] %></a><p>Researching better ways to reason about the world.</p></div><div class="footer-links"><a href="<%= site['site']['github'] %>">GitHub ↗</a><a href="<%= site['site']['linkedin'] %>">LinkedIn ↗</a><a href="<%= site['site']['orcid'] %>">ORCID ↗</a><a href="<%= site['site']['scholar'] %>">Google Scholar ↗</a></div><small>© <%= Time.now.year %> <%= site['site']['name'] %> · Updated <%= site['site']['updated'] %></small></footer>
   </div>
 </body>
 </html>
