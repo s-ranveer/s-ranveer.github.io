@@ -24,6 +24,10 @@ FileUtils.mkdir_p(File.join(OUTPUT, 'assets'))
 FileUtils.cp_r(Dir[File.join(ASSETS, '*')], File.join(OUTPUT, 'assets')) if Dir.exist?(ASSETS)
 FileUtils.cp(File.join(ROOT, 'CNAME'), File.join(OUTPUT, 'CNAME')) if File.exist?(File.join(ROOT, 'CNAME'))
 
+# Keep the branch-root Pages source compatible with the generated site.
+FileUtils.cp(File.join(OUTPUT, 'index.html'), File.join(ROOT, 'index.html'))
+FileUtils.cp(File.join(OUTPUT, 'style.css'), File.join(ROOT, 'style.css'))
+
 (data['blogs'] || []).each do |blog|
 	blog_output = File.join(OUTPUT, 'blogs', blog['slug'])
 	FileUtils.mkdir_p(blog_output)
