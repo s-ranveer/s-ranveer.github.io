@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="<%= site['site']['role'] %> at <%= site['site']['institution'] %>, researching reliable AI for healthcare.">
+  <title><%= site['site']['name'] %> · Researcher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="wordmark" href="#top" aria-label="Back to top"><span>RS</span> / <%= site['site']['name'] %></a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#work">Work</a>
+        <a href="#publications">Papers</a>
+      </nav>
+      <a class="header-link" href="<%= site['site']['resume'] %>">Resume <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="kicker"><span class="status-dot"></span> <%= site['site']['location'] %> · <%= site['site']['institution'] %></p>
+          <div class="name-lockup">
+            <h1 id="hero-title"><%= site['site']['name'] %><span class="accent">.</span></h1>
+            <img class="profile-image" src="<%= site['site']['profile_image'] %>" alt="Portrait of <%= site['site']['name'] %>">
+          </div>
+          <p class="hero-role"><%= site['site']['role'] %></p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#research">Explore research <span>↓</span></a>
+            <a class="text-link" href="<%= site['site']['github'] %>">GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="split-section" id="about" aria-labelledby="about-title">
+        <div class="section-index">01 <span>/</span> About</div>
+        <div class="section-body">
+          <p class="eyebrow"><%= site['about']['eyebrow'] %></p>
+          <h2 id="about-title"><%= site['about']['title'] %></h2>
+          <% site['about']['paragraphs'].each do |paragraph| %><p><%= paragraph %></p><% end %>
+          <div class="inline-links"><a href="<%= site['site']['lab'] %>">StARLinG Lab <span>↗</span></a><a href="<%= site['site']['advisor'] %>">Advisor: Dr Sriraam Natarajan <span>↗</span></a></div>
+        </div>
+      </section>
+
+      <section class="research-section" id="research" aria-labelledby="research-title">
+        <div class="section-heading"><div class="section-index">02 <span>/</span> Research</div><div><p class="eyebrow"><%= site['research']['eyebrow'] %></p><h2 id="research-title"><%= site['research']['title'] %></h2></div></div>
+        <p class="research-intro"><%= site['research']['intro'] %></p>
+        <div class="focus-grid"><% site['research']['focus'].each_with_index do |focus, index| %><article class="focus-item"><span class="focus-number">0<%= index + 1 %></span><h3><%= focus['title'] %></h3><p><%= focus['text'] %></p></article><% end %></div>
+      </section>
+
+      <section class="papers-section" id="publications" aria-labelledby="papers-title">
+        <div class="section-heading"><div class="section-index">03 <span>/</span> Papers</div><div><p class="eyebrow">Selected publications</p><h2 id="papers-title">Recent work, in print.</h2></div></div>
+        <% ['Conference paper', 'Journal article', 'Workshop paper'].each do |category| %>
+          <div class="paper-group">
+            <h3 class="paper-group-title"><%= category %></h3>
+            <div class="paper-list"><% site['publications'].select { |paper| paper['category'] == category }.each do |paper| %><% blog = (site['blogs'] || []).find { |entry| entry['paper'] == paper['bibtex'] } %><article class="paper <%= category.downcase.gsub(' ', '-') %>"><div class="paper-year"><%= paper['year'] %><span><%= paper['category'] %></span></div><div class="paper-content"><h3><a href="<%= paper['paper'] %>"><%= paper['title'] %> <span aria-hidden="true">↗</span></a></h3><p><%= paper['description'] %></p><a class="paper-link" href="<%= paper['paper'] %>">Read paper <span>→</span></a><a class="bibtex-link" href="assets/publications.bib#<%= paper['bibtex'] %>">BibTeX <span>↓</span></a><% if blog %><a class="blog-link" href="blogs/<%= blog['slug'] %>/">Blog <span>→</span></a><% end %></div></article><% end %></div>
+          </div>
+        <% end %><a class="button button-outline" href="<%= site['site']['scholar'] %>">View Google Scholar <span>↗</span></a>
+      </section>
+
+      <section class="work-section split-section" id="work" aria-labelledby="work-title">
+        <div class="section-index">04 <span>/</span> Work</div>
+        <div class="section-body"><p class="eyebrow">Work experience</p><h2 id="work-title">Places where I have learned by doing.</h2><div class="timeline"><% site['experience'].each do |job| %><article class="timeline-item"><div class="timeline-meta"><span><%= job['year'] %></span></div><div><h3><%= job['title'] %></h3><p class="place"><%= job['place'] %></p><p><%= job['text'] %></p></div></article><% end %></div></div>
+      </section>
+    </main>
+
+    <footer><div><a class="wordmark" href="#top"><span>RS</span> / <%= site['site']['name'] %></a><p>Researching better ways to reason about the world.</p></div><div class="footer-links"><a href="<%= site['site']['github'] %>">GitHub ↗</a><a href="<%= site['site']['linkedin'] %>">LinkedIn ↗</a><a href="<%= site['site']['orcid'] %>">ORCID ↗</a><a href="<%= site['site']['scholar'] %>">Google Scholar ↗</a></div><small>© <%= Time.now.year %> <%= site['site']['name'] %> · Updated <%= site['site']['updated'] %></small></footer>
+  </div>
+</body>
+</html>

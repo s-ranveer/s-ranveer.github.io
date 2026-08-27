@@ -1,0 +1,100 @@
+site:
+  name: Ranveer Singh
+  role: PhD student in Computer Science
+  institution: The University of Texas at Dallas
+  location: Richardson, Texas
+  email: ''
+  github: https://github.com/s-ranveer
+  linkedin: https://www.linkedin.com/in/ranveersingh6699
+  orcid: https://orcid.org/0009-0004-8562-9840
+  scholar: https://scholar.google.com/citations?hl=en&user=qB1bnfwAAAAJ
+  lab: https://starling-lab.github.io/
+  advisor: http://utdallas.edu/~sriraam.natarajan/
+  profile_image: assets/profile.png
+  resume: assets/CV_current.pdf
+  updated: 2026-08-18
+
+about:
+  eyebrow: About me
+  title: Curiousity is the foundation of all learning.
+  paragraphs:
+    - I am Ranveer, a PhD student working with Dr Sriraam Natarajan in the Statistical Artificial Intelligence and Relational Learning Group (StARLinG Lab) at the University of Texas at Dallas.
+    - I have called UT Dallas home since coming here for my undergraduate degree in Computer Science in Fall 2017, and I continued directly into the PhD program right after finishing my undergraduate degree.
+    - As an undergraduate, I interned at a financial company in India, where I worked on statistical modelling tools for mutual fund investment.
+
+research:
+  eyebrow: Research
+  title: Building AI for consequential domains.
+  intro: My research currently involves large language models, probabilistic models, relational learning, reinforcement learning, and AI for healthcare. I investigate the use of LLMs for downstream tasks across clinical domains, ranging from relational information extraction from electronic health records to evaluating the role of LLMs in causal reasoning to solving relational multi-agent problems.
+  focus:
+    - title: Clinical AI with LLMs
+      text: Exploring whether LLMs can serve as approximate knowledge sources to support learning in clinical settings, which are often data-poor and developing methods and frameworks for evaluating and mitigating hallucination and stochastic behavior in clinical decision-support tasks.
+    - title: Relational reinforcement learning
+      text: Studying multi-agent domains where states and actions are defined by objects and their relations, creating richer but exponentially larger problem spaces.
+
+publications:
+  - category: Journal article
+    year: 2026
+    title: "EHR Sampling Interval Bias Detection and Burden of Blood Pressure Excursions: Implications for Clinical Decision Support and Model Validity in Pediatric ECMO"
+    description: The difference in hypotension and hypertension for patients on ECMO across different sampling rates.
+    paper: https://www.mdpi.com/2078-2489/17/2/135
+    bibtex: shah2026ehr
+  - category: Conference paper
+    year: 2026
+    title: A Neurosymbolic Approach for Explainable Early Diagnosis of Alzheimer's Disease
+    description: An automated pipeline that extracts clinically relevant variables from audio recordings to construct a Bayesian Network and reason about Alzheimer's disease progression markers.
+    paper: https://arxiv.org/abs/2607.29530
+    bibtex: singh2026neurosymbolic
+  - category: Conference paper
+    year: 2026
+    title: "Causal Models with Tiny Data: The Case of Rural People Living with Dementia"
+    description: Causal modelling on a tiny dataset of rural or Indigenous populations living with dementia.
+    paper: https://link.springer.com/chapter/10.1007/978-3-032-30710-1_45
+    bibtex: singh2026causal
+  - category: Conference paper
+    year: 2025
+    title: LLMs for Causal Reasoning in Medicine? A Call for Caution
+    description: Evaluating LLMs for causal reasoning in medicine.
+    paper: https://dl.acm.org/doi/full/10.1145/3799830.3799848
+    bibtex: mathur2025caution
+  - category: Conference paper
+    year: 2025
+    title: LLM-Guided Causal Bayesian Network Construction for Pediatric Patients on ECMO
+    description: Combining LLMs with data refinement on data of pediatric patients on ECMO to learn a causal Bayesian network.
+    paper: https://doi.org/10.1007/978-3-031-95841-0_48
+    bibtex: mathur2025ecmo
+  - category: Conference paper
+    year: 2025
+    title: Combining Planning and Reinforcement Learning for Solving Relational Multiagent Domains
+    description: Solving relational multiagent domains using MaRePReL.
+    paper: https://dl.acm.org/doi/10.5555/3709347.3743806
+    bibtex: prabhakar2025mareprel
+  - category: Workshop paper
+    year: 2025
+    title: LLMs for Causal Reasoning in Medicine? A Call for Caution
+    description: The workshop version of the manuscript published at CODS 2025.
+    paper: https://openreview.net/pdf?id=NuA9hnuxAG
+    bibtex: mathur2025ijcai
+  - category: Workshop paper
+    year: 2024
+    title: Exploiting Relational Planning and Task-Specific Abstractions for Multiagent Reinforcement Learning in Relational Domains
+    description: The workshop version of the MaRePReL framework published later.
+    paper: /assets/papers/REPREL_MA.pdf
+    bibtex: singh2024reprel
+
+experience:
+  - year: 2023 - present
+    title: Research Assistant
+    place: The University of Texas at Dallas · Computer Science Department
+    text: Working as an RA as part of my PhD. I have been funded by the NIH, primarily focusing on clinical AI in data-scarce domains.
+  - year: 2021 - 2023
+    title: Teaching Assistant
+    place: The University of Texas at Dallas · Computer Science Department
+    text: Worked as a Teaching Assistant for CS 4141 Digital Logic Lab, conducting lab sessions, teaching and demonstrating experiments, and grading student work. Instructed over 800 students over two years.
+  - year: 2019
+    title: Student Intern
+    place: Fintricks Consultancy Services · Delhi, India
+    text: Developed statistical models to select better mutual fund policies using temporal modelling of high-frequency stock data. Also converted MS Excel-based workloads to SQL for better integration with Python and other scripting languages.
+
+# Add entries here to generate individual pages at /blogs/<slug>/.
+blogs: []
