@@ -22,6 +22,7 @@ File.write(File.join(OUTPUT, 'index.html'), template.result_with_hash(site: data
 FileUtils.cp(File.join(SOURCE, 'style.css'), File.join(OUTPUT, 'style.css'))
 FileUtils.mkdir_p(File.join(OUTPUT, 'assets'))
 FileUtils.cp_r(Dir[File.join(ASSETS, '*')], File.join(OUTPUT, 'assets')) if Dir.exist?(ASSETS)
+FileUtils.cp(File.join(ROOT, 'CNAME'), File.join(OUTPUT, 'CNAME')) if File.exist?(File.join(ROOT, 'CNAME'))
 
 (data['blogs'] || []).each do |blog|
 	blog_output = File.join(OUTPUT, 'blogs', blog['slug'])
