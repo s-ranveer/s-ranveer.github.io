@@ -16,7 +16,7 @@ site:
 
 about:
   eyebrow: About me
-  title: Curiousity is the foundation of all learning.
+  title: Curiosity is the foundation of all learning.
   paragraphs:
     - I am Ranveer, a PhD student working with Dr Sriraam Natarajan in the Statistical Artificial Intelligence and Relational Learning Group (StARLinG Lab) at the University of Texas at Dallas.
     - I have called UT Dallas home since coming here for my undergraduate degree in Computer Science in Fall 2017, and I continued directly into the PhD program right after finishing my undergraduate degree.
@@ -79,7 +79,7 @@ publications:
     year: 2024
     title: Exploiting Relational Planning and Task-Specific Abstractions for Multiagent Reinforcement Learning in Relational Domains
     description: The workshop version of the MaRePReL framework published later.
-    paper: /assets/papers/REPREL_MA.pdf
+    paper: assets/papers/REPREL_MA.pdf
     bibtex: singh2024reprel
 
 experience:

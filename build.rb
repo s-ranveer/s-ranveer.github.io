@@ -14,6 +14,7 @@ data = YAML.load_file(File.join(SOURCE, 'data.yml'))
 template = ERB.new(File.read(File.join(SOURCE, 'template.html.erb')))
 blog_template = ERB.new(File.read(File.join(SOURCE, 'blog.html.erb')))
 
+FileUtils.rm_rf(OUTPUT)
 FileUtils.mkdir_p(OUTPUT)
 File.write(File.join(OUTPUT, 'index.html'), template.result_with_hash(site: data))
 FileUtils.cp(File.join(SOURCE, 'style.css'), File.join(OUTPUT, 'style.css'))
