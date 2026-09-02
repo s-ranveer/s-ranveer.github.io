@@ -33,6 +33,12 @@ research:
       text: Studying multi-agent domains where states and actions are defined by objects and their relations, creating richer but exponentially larger problem spaces.
 
 publications:
+  - category: Conference paper
+    year: 2026
+    title: Dynamic Structural Causal Modeling for Sleep
+    description: A framework for learning dynamic structural causal models from time-series data, applied to sleep data to identify causal relationships between sleep stages and physiological signals.
+    paper: https://arxiv.org/abs/2608.20285
+    bibtex: singh2026dynamicstructural
   - category: Journal article
     year: 2026
     title: "EHR Sampling Interval Bias Detection and Burden of Blood Pressure Excursions: Implications for Clinical Decision Support and Model Validity in Pediatric ECMO"
